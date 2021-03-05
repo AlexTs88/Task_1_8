@@ -22,11 +22,9 @@ public class Main {
                 new Customer(1, "Mark", "Gomel", 1223, 2154),
                 new Customer(2, "Eva", "Minsk", 4565, 8587),
                 new Customer(3, "Gleb", "Grodno", 7896, 1243)));
-
-        Customer customer = new Customer(4, "Nina", "Minsk", 4812, 9545);
+                new Customer(4, "Nina", "Minsk", 4812, 9545);
 
         CustomerList customers = new CustomerList(list);
-        customers.add(customer);
 
         System.out.println("Список покупателей в алфавитном порядке:");
         customers.getListByName();

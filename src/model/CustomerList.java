@@ -12,10 +12,6 @@ public class CustomerList{
         this.customers = customers;
     }
 
-    public void add(Customer customer) {
-        customers.add(customer);
-    }
-
     public void showList() {
         for (Customer customer : customers) {
             System.out.println(customer);
